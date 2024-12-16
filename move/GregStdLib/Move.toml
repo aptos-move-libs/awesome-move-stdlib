@@ -1,0 +1,19 @@
+[package]
+name = "GregStdLib"
+version = "1.0.0"
+authors = ["greg@gnazar.io"]
+license = "GPL-3"
+upgrade_policy = "compatible"
+
+[addresses]
+greg_stdlib = "_"
+
+[dev-addresses]
+greg_stdlib = "0xDEADBEEF"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
