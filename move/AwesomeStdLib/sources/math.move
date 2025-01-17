@@ -1,4 +1,4 @@
-module greg_stdlib::math {
+module awesome_stdlib::math {
 
     // ==== Functions to help with coin math ==== //
 

@@ -1,7 +1,7 @@
 #[test_only]
 /// This is a test only module specifically for holding tests, it will not be compiled into a published module
-module greg_stdlib::heap_u64_tests {
-    use greg_stdlib::min_heap_u64::{Self, heap_sort};
+module awesome_stdlib::heap_u64_tests {
+    use awesome_stdlib::min_heap_u64::{Self, heap_sort};
 
     #[test]
     /// Tests various sucessful heap operations

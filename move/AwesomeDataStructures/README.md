@@ -1,4 +1,4 @@
-# GregDataStructures
+# AwesomeDataStructures
 
 On-chain data structures developed in Move with minimal dependencies for other usage.s
 

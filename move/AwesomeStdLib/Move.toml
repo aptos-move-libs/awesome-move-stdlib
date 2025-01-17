@@ -1,19 +1,19 @@
 [package]
-name = "GregDataStructures"
+name = "AwesomeStdLib"
 version = "1.0.0"
 authors = ["greg@gnazar.io"]
 license = "GPL-3"
 upgrade_policy = "compatible"
 
 [addresses]
-greg_stdlib = "_"
+awesome_stdlib = "_"
 
 [dev-addresses]
-greg_stdlib = "0xDEADBEEF"
+awesome_stdlib = "0xDEADBEEF"
 
-[dependencies.MoveStdlib]
+[dependencies.AptosFramework]
 git = "https://github.com/aptos-labs/aptos-framework.git"
 rev = "mainnet"
-subdir = "move-stdlib"
+subdir = "aptos-framework"
 
 [dev-dependencies]

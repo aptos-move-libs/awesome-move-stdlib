@@ -3,7 +3,7 @@
 /// This gives an example of a min heap https://en.wikipedia.org/wiki/Heap_(data_structure)
 ///
 /// A max heap can be handled similarly by changing the comparisons before swapping
-module greg_stdlib::min_heap_u64 {
+module awesome_stdlib::min_heap_u64 {
     spec module {
         pragma verify = true;
     }
